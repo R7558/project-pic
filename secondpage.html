@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Shopping Cart</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+   <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+   <section>
+      <div class="container">
+         <h2>My shopping cart</h2>
+         <div class="cart">
+            <div class="col-md-12 col-lg-10 mx-auto">
+
+
+               <div class="cart-item">
+                  <div class="row">
+                     <div class="col-md-7 center-item">
+                        <img src="wclothes1.webp" alt="">
+                        <h5>Ladies clothes</h5>
+                     </div>
+
+                     <div class="col-md-5 center-item">
+                        <div class="input-group number-spinner">
+                           <button id="wclothes1-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="wclothes1-number" type="number" min="0" class="form-control text-center" value="1">
+                           <button id="wclothes1-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <h5>$ <span id="wclothes1-total">1219</span></h5>
+                        <img src="images/remove.png" alt="" class="remove-item">
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="cart-item">
+                  <div class="row">
+                     <div class="col-md-7 center-item">
+                        <img src="wclothes2.webp" alt="">
+                        <h5>Ladies clothes</h5>
+                     </div>
+
+                     <div class="col-md-5 center-item">
+                        <div class="input-group number-spinner">
+                           <button id="wclothes2-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="wclothes2-number" type="number" min="0" class="form-control text-center" value="1">
+                           <button id="wclothes2-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <h5>$ <span id="wclothes2-total">121</span></h5>
+                        <img src="images/remove.png" alt="" class="remove-item">
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="cart-item">
+                  <div class="row">
+                    <h5 style="text-align:center ;">Ladies clothes</h5>
+                     <div class="col-md-7 center-item">
+                        <div class="zoom"><img src="wclothes3.webp" alt=""></div>
+                        
+                        <p>This a gray color bag.This bag is very soft .This a gray color bag.This bag is very soft .This a gray color bag.This bag is very soft .This a gray color bag.This bag is very soft .This a gray color bag.This bag is very soft .</p><br><br>
+                        
+                     </div>
+
+                     <div class="col-md-5 center-item">
+                        <div class="input-group number-spinner">
+                           <button id="wclothes3-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="wclothes3-number" type="number" min="0" class="form-control text-center" value="1">
+                           <button id="wclothes3-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <h5>$ <span id="wclothes3-total">512</span></h5>
+                        <img src="images/remove.png" alt="" class="remove-item">
+                     </div>
+                  </div>
+               </div>
+
+
+
+
+
+               <div class="cart-item">
+                  <div class="row">
+                     <div class="col-md-7 center-item mx-auto">
+                        <img src="wclothes4.webp" alt="">
+                        <h5> Ladies clothes</h5>
+                     </div>
+                     <div class="col-md-5 center-item">
+                        <div class="input-group number-spinner">
+                           <button id="wclothes4-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="wclothes4-number" type="number" min="0" class="form-control text-center" value="1">
+                           <button id="wclothes4-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+
+                        </div>
+                        <h5>$ <span id="wclothes4-total">59</span></h5>
+                        <img src="images/remove.png" alt="" class="remove-item">
+                     </div>
+                  </div>
+               </div>
+
+               <div class="cart-item">
+                  <div class="row">
+
+                     <div class="col-md-8">
+                        <h5>Subtotal: </h5>
+                        <h5>Tax:</h5>
+                        <h5>Total:</h5>
+                     </div>
+
+                     <div class="col-md-4 status">
+                        <h5>$ <span id="sub-total">1,278</span></h5>
+                        <h5>$ <span id="tex-amount">0</span></h5>
+                        <h5>$ <span id="total-price">1,278</span></h5>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 pt-4 pb-4">
+                  <button type="button" class="btn btn-success check-out">Check Out</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- <script src="images/shop.js"></script> -->
+   <script src="secondpage.js"></script>
+</body>
+
+</html>
